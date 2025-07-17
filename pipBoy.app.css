@@ -41,7 +41,7 @@ ul li.navbar-item a.nav-link {
   display: block;
   position: absolute;
   left: 46%;
-  top: 28%;
+  top: 25%;
   max-height: 240px;
   filter: grayscale(1) sepia(100%) hue-rotate(55deg) saturate(5) brightness(1)
     contrast(2);
@@ -82,9 +82,7 @@ ul li.navbar-item a.nav-link {
   left: 0px;
 }
 
-.row {
-  margin-left: 10px;
-}
+
 
 .navbar-item.active {
   position: relative;
@@ -140,7 +138,7 @@ ul li.navbar-item a.nav-link {
   height: 10px;
   width: 62px;
   border: 2px solid;
-  margin: 69px 1px 8px 0px;
+  margin: 60px 60px 61px 10px;
 }
 
 .w10 {
@@ -222,32 +220,31 @@ img.img-responsieve.pistol {
 
 .navbar.navbar-light .navbar-nav > li {
   padding: 0px 18px;
-  margin: 0px 40px;
+  margin: 0px 50px;
 }
-.navbar-light ul.navbar-nav >li {
-    display: block;
-    position: relative;
-    width: 100%;
+.navbar-light ul.navbar-nav > li {
+  display: block;
+  position: relative;
+  width: 100%;
 }
 .navbar.navbar-light.pip-footer {
   border-bottom: none;
   left: -13px;
-}.item-list
-{
+}
+.item-list {
   list-style: none;
 }
-.item-list a 
-{
-         text-decoration: none;
-    color:#14fe17;
-  
-    position: relative;
-    right: 7%;
-    padding-left: 43px;
+.item-list a {
+  text-decoration: none;
+  color: #14fe17;
+
+  position: relative;
+  right: 7%;
+  padding-left: 43px;
 }
 .tab-content .tab-pane .item-list li a:hover {
   color: #32352f;
-  background:#14fe17;
+  background: #14fe17;
 }
 .item-stats {
   position: absolute;
@@ -264,25 +261,23 @@ img.img-responsieve.pistol {
   background: #5afb6524;
 }
 
-.item-list  a.active::before
-{
-    content: "";
-    display: block;
-    position: absolute;
-    background:#14fe17;
-    width: 10px;
-    height: 10px;
-    left: 2%;
-    top: 20.5%;
+.item-list a.active::before {
+  content: "";
+  display: block;
+  position: absolute;
+  background: #14fe17;
+  width: 10px;
+  height: 10px;
+  left: 2%;
+  top: 20.5%;
 }
-.item-list a.active:hover::before
-{
-     content: "";
-    display: block;
-    position: absolute;
-    background: #1a1b1a;
-    width: 10px;
-    height: 10px;
-    left: 2%;
-    top: 20.5%;
+.item-list a.active:hover::before {
+  content: "";
+  display: block;
+  position: absolute;
+  background: #1a1b1a;
+  width: 10px;
+  height: 10px;
+  left: 2%;
+  top: 20.5%;
 }
