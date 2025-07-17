@@ -82,8 +82,6 @@ ul li.navbar-item a.nav-link {
   left: 0px;
 }
 
-
-
 .navbar-item.active {
   position: relative;
   padding-right: 2px;
@@ -91,7 +89,6 @@ ul li.navbar-item a.nav-link {
 .navbar-item.active::before {
   content: "";
   position: absolute;
-
   width: 100%;
   height: 26px;
   top: 14px;
@@ -220,7 +217,7 @@ img.img-responsieve.pistol {
 
 .navbar.navbar-light .navbar-nav > li {
   padding: 0px 18px;
-  margin: 0px 50px;
+  margin: 0px 70px;
 }
 .navbar-light ul.navbar-nav > li {
   display: block;
@@ -233,6 +230,10 @@ img.img-responsieve.pistol {
 }
 .item-list {
   list-style: none;
+  position: absolute;
+  top: 11rem;
+  left: 16rem;
+  font-size: 1.5rem;
 }
 .item-list a {
   text-decoration: none;
@@ -250,7 +251,8 @@ img.img-responsieve.pistol {
   position: absolute;
   right: 14%;
   bottom: 25%;
-  width: 255px;
+  width: 20rem;
+  font-size: larger;
 }
 .item-stats .row-highlight .row span {
   position: absolute;
